@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>welcome new user please fill the details to create account</h3>
+    <form action="./account_ceated.html" method="get">
+        <label for="first name">First name:</label>
+        <input type="text" required id="first name" name="first name" value=""/><br><br/>
+        <label for="last name">last name:</label>
+        <input type="text" required id="last name" name="last name" value=""/><br><br/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="vvvv@gmail.com" value=""/><br></br>
+        <label for="phone.no">Phone number:</label>
+        <input type="tel" id="phone.no" name="phone.no" required placeholder="9951701422" pattern="[0-9]{10}"/><br></br>
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" id="DOB" name="DOB" required placeholder="dd/mm/yyyy" value=""/><br></br>
+        <label for="password">Create Password:</label>
+        <input type="password" id="create password" required name="create password"/><br></br>
+        <label for="password">re-enter Password:</label>
+        <input type="password" id="re-enter password" required name="re-enter password"/><br></br>
+        <input type="submit" value="create account" id="create new account" name="create new account"/>
+    
+    </form>
+</body>
+</html>
